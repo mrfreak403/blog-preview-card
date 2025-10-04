@@ -1,6 +1,6 @@
 {
   "card": {
-    "mainImage": "https://picsum.photos/200/300/?blur",
+    "mainImage": "./pics/cover.jpg",
     "category": "Learning",
     "publishDate": "21 Dec 2023",
     "title": "HTML & CSS foundations",

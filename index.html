@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link tailwindcss via cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Blog Preview Card</title>
+  </head>
+  <body
+    class="bg-yellow-300/70 flex justify-center items-center min-h-screen py-3 px-2"
+  >
+    <div
+      id="card"
+      class="bg-white p-6 space-y-3 rounded-2xl shadow-lg sm:shadow-xl shadow-zinc-950"
+    >
+      <div
+        id="img-container"
+        class="flex items-center justify-center bg-[url('./pics/cover.jpg')] bg-cover h-50 rounded-2xl inset-shadow-sm shadow-zinc-950"
+      ></div>
+      <p
+        id="status"
+        class="px-4 py-1 bg-yellow-100 text-yellow-800 font-semibold rounded-lg w-fit"
+      >
+        Learning
+      </p>
+      <p id="publishDate" class="text-zinc-500">published 1 Oct 2025</p>
+      <p id="title" class="text-2xl font-bold text-zinc-800">
+        HTML & CSS foundations
+      </p>
+      <p id="description" class="max-w-[25em] text-zinc-500">
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </p>
+      <div id="author" class="flex items-center">
+        <img
+          src="https://i.pravatar.cc/150?u=a042581f4e29026704a"
+          alt="author-avatar"
+          class="w-10 h-10 rounded-full"
+        />
+        <p id="authorName" class="ml-2 font-bold text-zinc-800">Greg Hooper</p>
+      </div>
+    </div>
+  </body>
+</html>

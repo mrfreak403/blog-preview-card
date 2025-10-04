@@ -1,0 +1,13 @@
+{
+  "card": {
+    "mainImage": "https://picsum.photos/200/300/?blur",
+    "category": "Learning",
+    "publishDate": "21 Dec 2023",
+    "title": "HTML & CSS foundations",
+    "description": "These languages are the backbone of every website, defining structure, content, and presentation.",
+    "author": {
+      "name": "Greg Hooper",
+      "avatar": "https://i.pravatar.cc/150?u=a042581f4e29026704a"
+    }
+  }
+}
